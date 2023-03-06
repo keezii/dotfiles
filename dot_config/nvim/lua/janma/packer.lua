@@ -56,4 +56,8 @@ return require('packer').startup(function(use)
     'nvim-lualine/lualine.nvim',
     require = { 'kyazdani42/nvim-web-devicons', opt = true }
   }
+  use('simrat39/rust-tools.nvim')
+  use('mfussenegger/nvim-dap')
+  use("ellisonleao/gruvbox.nvim")
+
 end)
